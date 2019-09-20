@@ -1,0 +1,11 @@
+//META{"name":"Decay","description":"Note: Set default Discord theme to Dark to avoid bugs","author":"Widowest","version":"3.1"}*//
+@import url('https://thewidowest.github.io/Decay/import.css');
+:root {
+    --version-content: "v3.1";
+    --theme-name: "DECAY ";
+    --theme-letter: "D";
+    --main-color: #5502fa;
+    --hover-color: #c1004e;
+    --scroll-color: #057ddb;
+    --noti-color: #057ddb;
+}
