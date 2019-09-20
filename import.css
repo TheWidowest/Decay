@@ -597,7 +597,7 @@
     background-color: #19191b;
 }
 
-.theme-dark .friends-table {
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
     background: none;
 }
 
@@ -624,7 +624,7 @@
 
 /* Library Tab */
 
-.theme-dark .gameLibrary-TTDw4Y {
+.scroller-1IIF0A {
     background-color: #19191b;
 }
 
@@ -646,8 +646,12 @@
 
 /* Store Tab */
 
-.theme-dark .applicationStore-1pNvnv {
+.scroller-9moviB {
     background-color: #19191b;
+}
+
+.itemBackground-2vEldQ:before {
+    background: none;
 }
 
 .theme-dark .searchBox-3Y2Vi7 {
