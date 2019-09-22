@@ -831,6 +831,14 @@
     background-color: #19191b;
 }
 
+.scroller-305q3I {
+    background-color: #121213;
+}
+
+.contentRegion-3nDuYy {
+    background-color: #121213;
+}
+
 /* Unread Bar / New Message Bar */
 
 .newMessagesBar-mujexs,
@@ -1144,7 +1152,7 @@
     background-color: #19191b;
 }
 
-.theme-dark .body-3iLsc4,
+.theme-dark .bodyInner-245q0L,
 .theme-dark .footer-1fjuF6 {
     background-color: #121213;
 }
@@ -1286,7 +1294,7 @@
 
 /* Profile Popup */
 
-.root-SR8cQa {
+.userPopout-3XzG_A {
     border: solid 1px var(--main-color);
 }
 
