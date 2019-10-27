@@ -1,11 +1,7 @@
 :root {
-    --version-content: "v3.1";
+    --version-content: "v3.2";
     --theme-name: "DECAY ";
     --theme-letter: "D";
-    --main-color: #5502fa;
-    --hover-color: #c1004e;
-    --scroll-color: #057ddb;
-    --noti-color: #057ddb;
 }
 
 /* Version */
@@ -425,72 +421,6 @@
     background-color: #121213;
 }
 
-/* avatars and statuses */
-
-.avatar-16XVId,
-.private-channels .channel .avatar-small {
-    z-index: 1;
-}
-
-.online-2S838R {
-    border-color: #43b581 !important;
-}
-
-.idle-3DEnRT {
-    border-color: #faa61a !important;
-}
-
-.dnd-1_xrcq {
-    border-color: #f04747 !important;
-}
-
-.theme-dark .status-2s6iDp,
-.channel-2QD9_O .status-1ibiUI {
-    z-index: 1;
-    height: 30px !important;
-    width: 30px !important;
-    bottom: -2px;
-    right: -2px;
-    border-radius: 100%;
-    background-color: transparent !important;
-}
-
-/* users own status*/
-
-.avatarSmall-3ACRaI {
-    z-index: 1;
-}
-
-.container-2Thooq .status-2kJpnA {
-    z-index: -1;
-    height: 30px !important;
-    width: 30px !important;
-    bottom: -2px;
-    right: -2px;
-    border-radius: 100%;
-    border-style: solid;
-    background-color: transparent !important;
-}
-
-.spinner-2enMB9 {
-    display: none !important;
-}
-
-.mask-3OgeRz {
-    -webkit-mask: none !important;
-}
-
-.typing-1KJk_j {
-    right: -2px !important;
-    width: 30px !important;
-    animation: typing 1.3s linear infinite;
-}
-
-@keyframes typing {
-    50% {
-        opacity: .1;
-    }
-}
 
 /* message / text box */
 
@@ -1169,31 +1099,15 @@
     background-image: repeating-linear-gradient(135deg, rgb(160, 146, 255), rgb(91, 79, 242)10px, rgb(104, 33, 189)10px, rgb(137, 125, 255)20px)
 }
 
-.statusProfile-3ynqtt.online-2S838R {
-    height: 90px;
-    width: 90px;
-    bottom: 0px;
-    right: 0px;
-    background: none;
-    box-shadow: 0px 0px 8px 4px #43b581 !important;
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
+    width:60px;
+    height:60px;
 }
 
-.statusProfile-3ynqtt.idle-3DEnRT {
-    height: 90px;
-    width: 90px;
-    bottom: 0px;
-    right: 0px;
-    background: none;
-    box-shadow: 0px 0px 8px 4px #faa61a !important;
-}
-
-.statusProfile-3ynqtt.dnd-1_xrcq {
-    height: 90px;
-    width: 90px;
-    bottom: 0px;
-    right: 0px;
-    background: none;
-    box-shadow: 0px 0px 8px 4px #f04747 !important;
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -3px;
 }
 
 
@@ -1314,6 +1228,16 @@
     background-image: repeating-linear-gradient(135deg, rgb(160, 146, 255), rgb(91, 79, 242)10px, rgb(104, 33, 189)10px, rgb(137, 125, 255)20px)
 }
 
+.customStatus-154i-H .customStatusEmoji-3BvdMX {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -3px;
+}
+
+.customStatus-154i-H .customStatusEmoji-3BvdMX.customStatusSoloEmoji-192Z_4 {
+    width: 60px;
+    height: 60px;
+}
 
 /* File Uploader Popup */
 
@@ -1463,6 +1387,13 @@
 .theme-dark .tierBody-16Chc9 {
     background-color: #19191b;
 
+}
+
+/* Custom status popup */
+
+.theme-dark .root-1gCeng
+{
+    background-color:#19191b;
 }
 
 
@@ -1639,8 +1570,6 @@
 }
 
 
-
-
 /* autocomplete emoji size */
 
 .icon-3ZzoN7 {
@@ -1648,12 +1577,29 @@
     height: 50px !important;
 }
 
-.emojiPicker-3m1S-j .scroller-3vODG7 {
-    height: 78vh;
+#popout_660 div .emojiPicker-3m1S-j .scroller-3vODG7 {
+    height: 72vh;
 }
 
 
 /* Save to temp fix */
+
 .clickable-11uBi-:hover, .selected-BYpGTS {
     background-color: var(--hover-color);
+}
+
+
+/* BetterFormatting Plugin */
+
+.bf-toolbar {
+    right: 12px;
+    margin-bottom: 12px;
+}
+
+.theme-light .bf-toolbar:hover .bf-arrow {
+    margin-bottom: 0px;
+}
+
+.bf-toolbar::before {
+    background: #121213; 
 }
