@@ -1577,8 +1577,13 @@
     height: 50px !important;
 }
 
-#popout_660 div .emojiPicker-3m1S-j .scroller-3vODG7 {
+.emojiPicker-3m1S-j .scroller-3vODG7 {
     height: 72vh;
+
+}
+
+.layer-v9HyYc {
+    bottom: 60px !important;
 }
 
 
