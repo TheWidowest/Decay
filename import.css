@@ -1,5 +1,5 @@
 :root {
-    --version-content: "v3.2" !important;
+    --version-number: "v3.2";
     --theme-name: "DECAY ";
     --theme-letter: "D";
 }
@@ -7,7 +7,7 @@
 /* Version */
 
 .membersWrap-2h-GB4:after {
-    content: ""var(--version-content);
+    content: ""var(--version-number);
     position: absolute;
     font-weight: 500;
     right: 0px;
