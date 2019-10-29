@@ -1,5 +1,5 @@
 :root {
-    --version-content: "v3.2";
+    --version-content: "v3.2" !important;
     --theme-name: "DECAY ";
     --theme-letter: "D";
 }
