@@ -1,5 +1,5 @@
 :root {
-    --version-number: "v3.2";
+    --version-number: "v3.3";
     --theme-name: "DECAY ";
     --theme-letter: "D";
 }
@@ -408,6 +408,7 @@
 
 .theme-dark .members-1998pB {
     background-color: #19191b;
+    margin-right: 1px;
 }
 
 .theme-dark .membersGroup-v9BXpm {
@@ -1010,6 +1011,7 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
+    max-width: 460px;
 }
 
 .bda-dark .emojiPicker-3m1S-j,
@@ -1030,8 +1032,23 @@
     background: #121213;
 }
 
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background-color: #19191b;
+    padding: 0px;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+    margin-right: 16px;
+}
+
+.categories-1feg4n div:nth-child(1) {
+    margin-left: 20px;
+}
+
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
     border-bottom-color: var(--main-color);
+
+
 }
 
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
@@ -1045,6 +1062,10 @@
 
 .bda-dark .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
     background-color: var(--hover-color);
+}
+
+.infoBar-U6oBFk {
+    background-color: #19191b;
 }
 
 /* GIF Picker Menu */
@@ -1399,128 +1420,51 @@
 
 /* ===== SCROLLBARS ===== */
 
-/* Emoji Picker Scrollbar */
+/* Channels list scrollbar, DMs list scrollbar, members list scrollbar, user settings scrollbar */
 
-.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: var(--scroll-color);
+
 }
 
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
+
+/* Settings windows scrollbar */
+
+.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+    border: solid 4px transparent !important;
+}
+
+ 
+.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Friends list scrollbar */
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color) !important;
+    border: solid 4px transparent !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* emoji picker scrollbar */
+ 
+.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+}
+ 
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, 
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, 
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border-color: transparent !important;
 }
 
-/* Search Results Scrollbar */
-
-.theme-dark .search-results-wrap .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: #121213 !important;
-}
-
-.theme-dark .search-results-wrap .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color) !important;
-    border: 2px solid #121213 !important;
-}
-
-
-/* Recent Mentions Scrollbar */
-
-.scroller-wrap.dark .scroller::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color) !important;
-}
-
-.scroller-wrap.dark .scroller::-webkit-scrollbar-track-piece {
-    background-color: #121213 !important;
-    border-color: transparent !important;
-}
-
-/* chat / messages scrollbar */
-
-.scroller-2FKFPG::-webkit-scrollbar {
-    width: 8px;
-}
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: #19191b !important;
-    border-color: transparent;
-}
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color) !important;
-    border: 2px solid #19191b !important;
-}
-
-/* User List Scrollbar */
-
-.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color);
-}
-
-.scrollerWrap-otKoZo .scroller-2FKFPG::-webkit-scrollbar-track {
-    margin-bottom: 16px;
-}
-
-/* Channel List Scrollbar */
-
-.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color);
-}
-
-.scrollerWrap-otKoZo.container-PNkimc>div>.scroller-2FKFPG::-webkit-scrollbar-track {
-    background: none !important;
-}
-
-/* Friends List Scrollbar */
-
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
-    border: 2px solid #19191b !important;
-    background-color: var(--scroll-color);
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color);
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: #19191b !important;
-    border: 2px solid #19191b !important;
-}
-
-/* Games Tab scrollbar */
-
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    border: 2px solid none !important;
-    background-color: var(--scroll-color);
-}
-
-.scroller-2FKFPG::-webkit-scrollbar-track {
-    background-color: #121213 !important;
-}
-
-/* Server Settings Window Scrollbar */
-
-.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color);
-    border-color: #121213 !important;
-}
-
-.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
-    background-color: #121213;
-    border-color: #121213 !important;
-}
-
-/* Text area scrollbar */
-
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color);
-}
 
 /* DECAY Wordmark */
 
@@ -1554,6 +1498,7 @@
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
     width: 40px;
     height: 40px;
+    margin: 2px 2px;
 }
 
 .emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
@@ -1565,7 +1510,6 @@
 }
 
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-    right: 8px;
     line-height: 40px; 
 }
 
@@ -1578,7 +1522,7 @@
 }
 
 .emojiPicker-3m1S-j .scroller-3vODG7 {
-    height: 33vh;
+    height: 33vh !important;
 }
 
 .bda-dark .emojiPicker-3m1S-j {
