@@ -1,4 +1,4 @@
-:root{--version-number:"v3.4";--theme-name:"DECAY ";--theme-letter:"D"}
+:root{--version-number:"v3.4.1";--theme-name:"DECAY ";--theme-letter:"D"}
 .membersWrap-2h-GB4:after{content:""var(--version-number);position:absolute;font-weight:500;right:0;bottom:1px;color:#f05;padding-right:4px;padding-left:2px;background-color:#19191b}
 .appMount-3VJmYg,.typeWindows-1za-n7{background-color:#121213!important;padding-top:4px;margin-top:0}
 .container-2lgZY8{background-color:#19191b}
@@ -44,6 +44,8 @@
 .messages-3amgkR{background-color:#19191b}
 .theme-dark .markup-2BOw-j code,.theme-dark .markup-2BOw-j code.inline,.theme-dark .markup-2BOw-j pre{background-color:#121213}
 .textAreaEdit-bNLDk3{background-color:#121213;border-radius:5px}
+.scrollableContainer-38zsVD{background-color:#19191b}
+.webkit-26NYEN .buttons-205you{margin-right:0}
 .theme-dark .operations-36ENbA>a{color:var(--main-color)}
 .theme-dark .reaction-1ELvT8{background:0 0;position:relative}
 .theme-dark .reaction-1ELvT8,.theme-dark .reaction-1ELvT8 .emoji{border-radius:20%;border:none;padding:4px;width:24px;height:24px;margin-bottom:20px!important}
@@ -70,8 +72,8 @@
 .theme-dark .membersGroup-v9BXpm{text-align:center;color:var(--main-color)}
 .theme-dark .member-3W1lQa.popout-open,.theme-dark .member-3W1lQa.popout-open:hover,.theme-dark .member-3W1lQa:hover{background-color:#121213}
 .theme-dark .chat-3bRxxu form{background-color:#19191b;border-style:solid;border-width:1px 1px 0 1px;border-color:#121213;margin:0;box-shadow:none}
-.theme-dark .inner-zqa7da{background-color:#19191b;margin-left:10px;margin-right:10px}
-.channelTextArea-rNsIhG{margin:5px 10px 5px 10px;border-top:none!important;padding-top:0!important}
+.theme-dark .inner-zqa7da{background-color:#19191b}
+.channelTextArea-rNsIhG{margin:6px 10px 6px 0;border-top:none!important;padding-top:0!important}
 .attachButtonDivider-3Glu60{height:80%;top:10%}
 .autocomplete-i9yVHs{margin-bottom:6px!important}
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) span,.theme-dark .messages-wrapper .messages .divider.divider-red>span{color:rgba(201,3,3,.911);background-color:#19191b!important;border-color:red;margin-top:4px!important}
@@ -79,7 +81,7 @@
 .divider-3gKybi:before{display:none}
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div{background:red;opacity:.4;margin-top:4px!important}
 .theme-dark .messages-wrapper .messages .divider span{background-color:#19191b}
-.typing-2GQL18{bottom:auto;width:auto;contain:none!important;padding-left:4px;padding-right:4px;margin-top:-20px;border-radius:4px 4px 0 0;background-color:#121213!important;height:20px}
+.typing-2GQL18{bottom:56px;width:auto;contain:none!important;padding-left:4px;padding-right:4px;margin-top:-20px;border-radius:4px 4px 0 0;background-color:#121213!important;height:20px}
 .spinner-pulsing-ellipsis{margin-top:5px}
 .theme-dark .isMentioned-N-h9aa{background-color:#121213;box-shadow:0 0 5px 5px var(--main-color);opacity:.7}
 [tabindex="2"]{visibility:hidden}
