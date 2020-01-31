@@ -1,4 +1,4 @@
-:root{--version-number:"v3.4.2";--theme-name:"DECAY ";--theme-letter:"D"}
+:root{--version-number:"v3.4.3";--theme-name:"DECAY ";--theme-letter:"D";--main-color:#5502fa;--hover-color:#c1004e;--scroll-color:#057ddb;--noti-color:#057ddb}
 .membersWrap-2h-GB4:after{content:""var(--version-number);position:absolute;font-weight:500;right:0;bottom:1px;color:#f05;padding-right:4px;padding-left:2px;background-color:#19191b}
 .appMount-3VJmYg,.typeWindows-1za-n7{background-color:#121213!important;padding-top:4px;margin-top:0}
 .container-2lgZY8{background-color:#19191b}
@@ -31,6 +31,8 @@
 .theme-dark .container-3baos1{background-color:#19191b;padding-bottom:2px;padding-top:2px;border-top-color:#121213;border-top-style:solid;border-top-width:1px;margin:0}
 .theme-dark .status-3DaTVG{width:30px;height:30px;background:0 0;border-radius:20px;margin-right:1px;margin-bottom:1px}
 .theme-dark .menu-Sp6bN1{box-shadow:none;border:solid 1px var(--main-color)}
+.itemActive-2V2HNc{background-color:var(--main-color)}
+.itemBase-1Qj4z6:hover{background-color:var(--hover-color)}
 .theme-dark .separator-2zcjq8{visibility:hidden}
 .panel-24C3ux{border-bottom:none;border-top:1px solid #121213}
 .usernameContainer-1fp4nu .title-eS5yk3{font-family:monospace!important;font-size:16px}
@@ -81,7 +83,9 @@
 .divider-3gKybi:before{display:none}
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div{background:red;opacity:.4;margin-top:4px!important}
 .theme-dark .messages-wrapper .messages .divider span{background-color:#19191b}
-.typing-2GQL18{bottom:56px;width:auto;contain:none!important;padding-left:4px;padding-right:4px;margin-top:-20px;border-radius:4px 4px 0 0;background-color:#121213!important;height:20px}
+.typing-2GQL18{width:auto;height:22px;contain:none;padding-left:2px;padding-right:3px;margin-top:-22px;border-radius:4px 4px 0 0;background-color:#121213!important}
+.form-2fGMdU{display:flex!important}
+.base-gE7OpD{bottom:auto}
 .scrollableContainer-2NUZem{background-color:#19191b}
 .spinner-pulsing-ellipsis{margin-top:5px}
 .theme-dark .isMentioned-N-h9aa{background-color:#121213;box-shadow:0 0 5px 5px var(--main-color);opacity:.7}
@@ -90,7 +94,7 @@
 .selected-aXhQR6.container-2Pjhx-{background-color:var(--main-color)}
 .clickable-1JJAn8.container-2Pjhx-:hover{background-color:var(--hover-color)}
 .aka-1mqp34{background-color:var(--main-color)}
-.theme-dark .container-3gCOGc{background-color:#19191b;border-left-color:#121213;border-left-style:solid;border-left-width:1px}
+.peopleList-3c4jOR{background-color:#19191b;border-left-color:#121213;border-left-style:solid;border-left-width:1px}
 .theme-dark .container-1r6BKw{background-color:#19191b}
 .friendsTable-133bsv .friendsTableBody-1ZhKif{background:0 0}
 .theme-dark .topPill-30KHOu .item-PXvHYJ{margin-right:2px}
@@ -99,6 +103,8 @@
 .tabBar-1E2ExX .primary-3j8BhM{background-color:var(--main-color)!important}
 .tabBar-1E2ExX .primary-3j8BhM:hover:not(.selected){background-color:var(--hover-color)!important}
 .theme-dark .quickSelectPopout-X1hvgV{background-color:#121213}
+.nowPlayingColumn-2sl4cE{background-color:#121213}
+.emptyCard-1RJw8n{background-color:#19191b}
 .scroller-1IIF0A{background-color:#19191b}
 .theme-dark .header-39GIC8{background-color:#19191b}
 .channel-2QD9_O.selected-1HYmZZ a{background-color:var(--main-color)}
