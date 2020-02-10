@@ -1,4 +1,4 @@
-:root{--version-number:"v3.5";--theme-name:"DECAY ";--theme-letter:"D";--main-color:#5502fa;--hover-color:#c1004e;--scroll-color:#057ddb;--noti-color:#057ddb}
+:root{--version-number:"v3.5.1";--theme-name:"DECAY ";--theme-letter:"D";--main-color:#5502fa;--hover-color:#c1004e;--scroll-color:#057ddb;--noti-color:#057ddb}
 .membersWrap-2h-GB4:after{content:""var(--version-number);position:absolute;font-weight:500;right:0;bottom:1px;color:#f05;padding-right:4px;padding-left:2px;background-color:#19191b}
 .appMount-3VJmYg,.typeWindows-1za-n7{background-color:#121213!important;padding-top:4px;margin-top:0}
 .container-2lgZY8{background-color:#19191b}
@@ -94,11 +94,12 @@
 .theme-dark .isMentioned-N-h9aa{background-color:#121213;box-shadow:0 0 5px 5px var(--main-color);opacity:.7}
 [tabindex="2"]{visibility:hidden}
 .privateChannels-1nO12o,.scroller-1JbKMe{background-color:#19191b}
-.selected-aXhQR6.container-2Pjhx-{background-color:var(--main-color)}
 .clickable-1JJAn8.container-2Pjhx-:hover{background-color:var(--hover-color)}
+.selected-aXhQR6 .layout-2DM8Md{background-color:var(--main-color)}
+.peopleListItem-2nzedh:hover{background-color:var(--hover-color)}
 .aka-1mqp34{background-color:var(--main-color)}
 .peopleList-3c4jOR{background-color:#19191b;border-left-color:#121213;border-left-style:solid;border-left-width:1px}
-.theme-dark .container-1r6BKw{background-color:#19191b}
+.theme-dark .container-1D34oG,.theme-dark .container-1r6BKw{background-color:#19191b}
 .friendsTable-133bsv .friendsTableBody-1ZhKif{background:0 0}
 .theme-dark .topPill-30KHOu .item-PXvHYJ{margin-right:2px}
 .theme-dark .topPill-30KHOu .item-PXvHYJ:hover{background-color:var(--hover-color)}
