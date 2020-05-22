@@ -179,15 +179,10 @@
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after{background-color:var(--main-color)}
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover{background-color:var(--hover-color)}
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z{background-color:var(--main-color)}
-.theme-dark .searchAnswer-3Dz2-q,.theme-dark .searchFilter-2ESiM3{background-color:var(--main-color)}
-.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf,.theme-dark .searchHeader-1l-wpR,.theme-dark .searchResultsWrap-2DKFzt{background-color:#121213;box-shadow:none}
-.theme-dark .searchResult-3pzFAB .hit-NLlWXA{background-color:#19191b;box-shadow:none;border-color:var(--main-color)}
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz{background-color:#121213!important;border-color:var(--main-color);border-width:2px}
-.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA{border-color:var(--main-color);background-color:#19191b}
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA{background-color:#19191b}
-.theme-dark .searchResult-3pzFAB:after,.theme-dark .searchResult-3pzFAB:before{background-image:none!important}
-.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P{border-bottom:2px solid var(--main-color)}
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA{border-color:var(--hover-color)}
+.channelName-wvgELL,.searchResultsWrap-3-pOjs{background-color:#121213;box-shadow:none}
+.searchResult-2N9RV4:after,.searchResult-2N9RV4:before{background-image:none}
+.searchResultMessage-30QnSN.hit-1CXhXT{box-shadow:none;border-color:var(--main-color);border-style:solid 1px}
+.searchResultMessage-30QnSN.hit-1CXhXT{background-color:#19191b}
 .theme-dark .autocomplete-1vrmpx{background-color:#121213!important}
 .theme-dark .selectorSelected-1_M1WV{background-color:var(--hover-color)}
 .theme-dark .description-11DmNu{color:#fff}
